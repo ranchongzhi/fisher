@@ -58,16 +58,16 @@ $$
 \overline{S_{i}}^{2}=\sum_{y_{j}\in \psi_{i}}\left( y_{j}-\overline\mu_{i}\right)^{2},i=1,2
 $$
 
-- 二分类情况下降到一维最佳投影方向$\omega^*$:
+- 二分类情况下降到一维最佳投影方向$\omega^\*$:
   $$
-  \omega^*=S_\omega^-1(\mu_{1}-\mu_{2})
+  \omega^\*=S_\omega^-1(\mu_{1}-\mu_{2})
   $$
 
 
 - 降到二维的最佳投影方向${\omega}^\*$:
 
   $$
-  S_{w}^{-1}S_{b}\omega^\*=\lambda\omega^\*
+  S_{w}^{-1}S_{b}\omega^\*=\lambda\omega^\*                              （9）
   $$
   
   根据式子(9)计算出特征值$\lambda$，取最大的前两个特征值所对应的特征向量，将其组合在一起，即为所求的最佳投影方向，式(9)中的$S_b$由式(5)计算得来
