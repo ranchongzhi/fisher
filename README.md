@@ -110,12 +110,12 @@ X_train,X_test, y_train, y_test =train_test_split(train_data,train_target,test_s
 
 参数解释：
 
-- **train_data：**所要划分的样本特征集
-- **train_target：**所要划分的样本结果集
-- **test_size：**测试样本占比，如果是整数的话就是样本的数量
-- **random_state：**是随机数的种子
+- train_data：所要划分的样本特征集
+- train_target：所要划分的样本结果集
+- test_size：测试样本占比，如果是整数的话就是样本的数量
+- random_state：是随机数的种子
 
-- **随机种子：**其实就是该组随机数的编号，在需要重复试验的时候，保证得到一组一样的随机数
+- 随机种子：其实就是该组随机数的编号，在需要重复试验的时候，保证得到一组一样的随机数
 
 通过该函数，只要每次传入不同的随机种子，就可以得到不同的训练集、测试集
 
@@ -133,18 +133,7 @@ X_train,X_test, y_train, y_test =train_test_split(train_data,train_target,test_s
    iris数据集为一个三分类问题
    
    - 方案一：可以将其转化为三个二分类问题进行分类，具体分类思路如下：
-   
-     ```mermaid
-     graph TB
-            start[测试样本] --通过第1,2类样本的决策函数--> input[样本全被标记为0或者1]
-            input --通过第1,3类样本的决策函数--> conditionA{样本是否被标记为0}
-            conditionA -- YES --> printA[将标记为0的样本分为第一类]
-            conditionA -- NO --> inputB[二三两类数据]
-            inputB --通过第2,3类样本的决策函数--> conditionB{样本是否被标记为1}
-            conditionB --YES--> printB[将标记为1的样本分为第二类]
-            conditionB --NO--> printC[将标记为2的样本分为第三类] 
-     ```
-   
+   ![思路流程图](liuchengtu.png)
    - 方案二：将样本降到二维，再通过KNN算法进行分类
    
    
