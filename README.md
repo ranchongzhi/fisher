@@ -1,44 +1,4 @@
-![](image-20201005192313749.png)
-
-
-
-
-
-
-
-<div align='center' ><font size='70'>模式识别大作业</font></div>
-
-
-
-
-
-
-
-![](image-20201005192645667.png)
-
-
-
-
-
-
-
-<div align='center' ><font size='5'>题    目：Fisher线性判别+KNN分类  </font></div>
-
-<div align='center' ><font size='5'>班    级：          182001     </font></div>
-
-<div align='center' ><font size='5'>学 生 姓 名：    冉崇治    </font></div> 
-
-<div align='center' ><font size='5'>学    号：    18200100030    </font></div>
-
-
-
-
-
-
-
-
-
-
+## Fisher线性判别+KNN算法分类
 
 ### 环境
 
