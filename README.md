@@ -24,7 +24,7 @@ $$
 - 各类类内离散度矩阵$S_{i}$:
 
 $$
-S _{i}=\sum_{x_{j}\in\Omega_{i}}\left( x_{j}-\mu_{i}\right) \left( x_{j}-\mu_{i}\right) ^{T},i=1,2
+S_{i}=\sum_{x_{j}\in\Omega_{i}}\left( x_{j}-\mu_{i}\right) \left( x_{j}-\mu_{i}\right) ^{T},i=1,2
 $$
 
 - 总类内离散度矩阵$S_{w}$:
